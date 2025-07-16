@@ -1,20 +1,17 @@
-# TRABALHO SISTEMAS OPERACIONAIS I - UNOESTE(FIPP)
-# OPERATING SYSTEMS I WORK - UNOESTE(FIPP)
+# SISTEMAS OPERACIONAIS I - UNOESTE(FIPP)
+## OPERATING SYSTEMS I - UNOESTE(FIPP)
 
-## CICLO DE VIDA DE PROCESSO
-## PROCESS LIFE CYCLE
+## PROCESS LIFE CYCLE - CICLO DE VIDA DE PROCESSO
 
 ## INTRODUÇÃO
-## INTRODUCTION
 Este programa simula o comportamento de um escalonador de processos em um sistema operacional, incluindo a criação, escalonamento, bloqueio e desbloqueio de processos, além da interação entre processos pai e filho e a visualização do estado de cada um.
 Foram utilizadas estruturas de filas para gerenciar os estados (pronto, espera e finalizado), demonstrando como um escalonador organiza os processos, equilibrando e controlando a execução e espera de cada um.
 
+## INTRODUCTION
 This program simulates the behavior of a process scheduler in an operating system, including the creation, scheduling, blocking, and unblocking of processes, as well as the interaction between parent and child processes and the visualization of each process's state.
 Queue structures were used to manage the states (ready, waiting, and finished), demonstrating how a scheduler organizes processes, balancing and controlling the execution and waiting of each.
 
 ## ESTRUTURA DE DADOS
-## DATA STRUCTURE
-
 * **Processo**: Armazena todas as informações de um processo em execução.
     * **Process**: Stores all information of a running process.
 * **Filas**: Simulam os diferentes estados no ciclo de vida de um processo, foram usadas 3 filas para gerenciar a transição dos processos entre os estados:
