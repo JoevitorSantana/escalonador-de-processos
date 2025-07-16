@@ -1,3 +1,10 @@
+/*
+*
+*   @autor JoevitorSantana
+*
+*   This script simulates the scheduler, with Ready, Running, Block Queues and preemptive behavior
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>
